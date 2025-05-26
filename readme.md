@@ -22,3 +22,6 @@ you will find the firmware *shapeless_rp2040_40keys_default.uf2* in the `.build`
 Enter the bootloader on raspberry pi pico board:
 
 The bootloader is the standard pico bootloader. To flash firmware simply enter bootloader by pressing the button on the raspberry pi pico board while connecting usb cable. Then you can copy the firmware *shapeless_rp2040_40keys_default.uf2* on the virtual drive created by the bootloader.
+
+# Hardware
+ All needed files to buy or build hardware are in the folder `hardware`
