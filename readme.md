@@ -19,8 +19,8 @@ using the QMK cli :
 you will find the firmware *shapeless_rp2040_40keys_default.uf2* in the `.build` folder of your QMK environment .
 
 
-## Bootloader
+# flash the firmware
 
-Enter the bootloader in 3 ways:
+Enter the bootloader on raspberry pi pico board:
 
 The bootloader is the standard pico bootloader. To flash firmware simply enter bootloader by pressing the button on the raspberry pi pico board while connecting usb cable. Then you can copy the firmware *shapeless_rp2040_40keys_default.uf2* on the virtual drive created by the bootloader.
