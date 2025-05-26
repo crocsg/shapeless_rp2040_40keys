@@ -6,7 +6,7 @@
 
 * Keyboard Maintainer: [crocsg](https://github.com/crocsg)
 * Hardware Supported: *shapeless keyboard*
-* Hardware Availability: *You need to bild your own or buy it from gerber file*
+* Hardware Availability: *You need to build your own or buy it from gerber file*
 
 This firmware use standard QMK environment. To build the project you need to copy the shapeless_rp2040_40keys into the keyboards folder of your QMK environment.
 
