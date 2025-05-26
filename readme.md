@@ -1,27 +1,26 @@
-# test_rp2040_40keys
+# shapeless_rp2040_40keys
 
-![test_rp2040_40keys](imgur.com image replace me!)
+![test_rp2040_40keys](board.jpg)
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Stephane Godin](https://github.com/crocsg)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [crocsg](https://github.com/crocsg)
+* Hardware Supported: *shapeless keyboard*
+* Hardware Availability: *You need to bild your own or buy it from gerber file*
 
-Make example for this keyboard (after setting up your build environment):
-
-    make test_rp2040_40keys:default
-
-Flashing example for this keyboard:
-
-    make test_rp2040_40keys:default:flash
+This firmware use standard QMK environment. To build the project you need to copy the shapeless_rp2040_40keys into the keyboards folder of your QMK environment.
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+
+# Instruction for build 
+using the QMK cli :
+```qmk compile -kb shapeless_rp2040_40keys -km default ```
+
+you will find the firmware *shapeless_rp2040_40keys_default.uf2* in the `.build` folder of your QMK environment .
+
 
 ## Bootloader
 
 Enter the bootloader in 3 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+The bootloader is the standard pico bootloader. To flash firmware simply enter bootloader by pressing the button on the raspberry pi pico board while connecting usb cable. Then you can copy the firmware *shapeless_rp2040_40keys_default.uf2* on the virtual drive created by the bootloader.
