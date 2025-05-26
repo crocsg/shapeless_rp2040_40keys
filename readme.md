@@ -1,12 +1,10 @@
 # shapeless_rp2040_40keys
 
-![test_rp2040_40keys](board.jpg)
+![shapeless_rp2040_40keys](board.jpg)
 
-*A short description of the keyboard/project*
+*This project AIM to provide a shapeless keyboard (a keyboard without predefine shape). On the logic point of view it is a standard USB keyboard. On the hardware point of view, it is 40 switches you can arrange in any way.*
 
-* Keyboard Maintainer: [crocsg](https://github.com/crocsg)
-* Hardware Supported: *shapeless keyboard*
-* Hardware Availability: *You need to build your own or buy it from gerber file*
+
 
 This firmware use standard QMK environment. To build the project you need to copy the shapeless_rp2040_40keys into the keyboards folder of your QMK environment.
 
